@@ -1,0 +1,12 @@
+{
+  "name": "my-json-server",
+  "version": "1.0.0",
+  "description": "JSON server for my project",
+  "main": "index.js",
+  "scripts": {
+  "start": "json-server --watch db.json --port $PORT"
+  },
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
