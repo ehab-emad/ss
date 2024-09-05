@@ -1,10 +1,10 @@
 {
   "name": "my-json-server",
   "version": "1.0.0",
-  "description": "JSON server for my project",
-  "main": "index.js",
+  "description": "JSON server using index.js",
+  "main": "index.js", // تأكد من أن المسار هنا صحيح
   "scripts": {
-  "start": "json-server --watch db.json --port $PORT"
+    "start": "node index.js"
   },
   "dependencies": {
     "json-server": "^0.17.0"
