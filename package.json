@@ -2,8 +2,8 @@
   "name": "my-json-server",
   "version": "1.0.0",
   "description": "JSON server using index.js",
-  "main": "index.js", // تأكد من أن المسار هنا صحيح
-  "scripts": {
+  "main": "index.js",
+    "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
