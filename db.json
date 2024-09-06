@@ -1,6 +1,6 @@
 {
     "posts": [
-      { "id": 1, "title": "Hello World" },
+      { "id": 1, "title": "Hello World" }
      
     ],
     "comments": [
