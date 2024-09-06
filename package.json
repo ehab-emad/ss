@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "JSON server using index.js",
   "main": "index.js",
-    "scripts": {
+  "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "json-server": "^0.17.0"
+    "json-server": "^0.17.0",
+    "multer": "^1.4.5-lts.1"
   }
 }
