@@ -26,7 +26,8 @@ server.post("/products",(req, res, next) => {
 
 
   // Continue to JSON Server router
-  next()
+//   next()
+next()
 })
 server.listen(port, () => {
   console.log(`JSON Server is running on port ${port}`);
