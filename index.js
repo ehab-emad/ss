@@ -26,7 +26,7 @@ const storage = multer.diskStorage({
 const bodyParser = multer({ storage: storage }).any();
 
 // استخدام middlewares و router قبل الاستماع للمنفذ
-server.use(middlewares);
+
 server.use(bodyParser);
 
 server.post("/products", (req, res, next) => {
