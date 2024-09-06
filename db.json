@@ -1,7 +1,7 @@
 {
     "posts": [
       { "id": 1, "title": "Hello World" },
-      { "id": 2, "title": "JSON Server" }
+     
     ],
     "comments": [
       { "id": 1, "body": "some comment", "postId": 1 }
