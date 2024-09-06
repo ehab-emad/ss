@@ -5,7 +5,7 @@ const server = jsonServer.create();
 const router = jsonServer.router('./db.json');
 const middlewares = jsonServer.defaults();
 const multer  = require('multer')
-const port = process.env.PORT || 30067
+const port = process.env.PORT || 30000
 ;
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
